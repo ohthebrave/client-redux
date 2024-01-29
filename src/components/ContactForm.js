@@ -17,7 +17,7 @@ const ContactForm = () => {
 console.log(formData);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/contacts', {
+      const response = await fetch('https://online-market-msht.onrender.com/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
